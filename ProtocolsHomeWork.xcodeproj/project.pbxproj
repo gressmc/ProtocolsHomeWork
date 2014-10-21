@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		843D84BA19F6B44F00643713 /* Human.m in Sources */ = {isa = PBXBuildFile; fileRef = 843D84B919F6B44F00643713 /* Human.m */; };
+		843D84BD19F6B47700643713 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 843D84BC19F6B47700643713 /* Animal.m */; };
+		843D84C619F6B52B00643713 /* Diver.m in Sources */ = {isa = PBXBuildFile; fileRef = 843D84BF19F6B52B00643713 /* Diver.m */; };
+		843D84C719F6B52B00643713 /* Rabbit.m in Sources */ = {isa = PBXBuildFile; fileRef = 843D84C119F6B52B00643713 /* Rabbit.m */; };
+		843D84C819F6B52B00643713 /* Runner.m in Sources */ = {isa = PBXBuildFile; fileRef = 843D84C319F6B52B00643713 /* Runner.m */; };
+		843D84C919F6B52B00643713 /* Snake.m in Sources */ = {isa = PBXBuildFile; fileRef = 843D84C519F6B52B00643713 /* Snake.m */; };
+		843D84CC19F6BB6900643713 /* Monkey.m in Sources */ = {isa = PBXBuildFile; fileRef = 843D84CB19F6BB6900643713 /* Monkey.m */; };
 		84F2BE7B19F6AFD1006CEFE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F2BE7A19F6AFD1006CEFE7 /* main.m */; };
 		84F2BE7E19F6AFD1006CEFE7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F2BE7D19F6AFD1006CEFE7 /* AppDelegate.m */; };
 		84F2BE8119F6AFD1006CEFE7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F2BE8019F6AFD1006CEFE7 /* ViewController.m */; };
@@ -27,6 +34,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		843D84B819F6B44F00643713 /* Human.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Human.h; sourceTree = "<group>"; };
+		843D84B919F6B44F00643713 /* Human.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Human.m; sourceTree = "<group>"; };
+		843D84BB19F6B47700643713 /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		843D84BC19F6B47700643713 /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		843D84BE19F6B52B00643713 /* Diver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Diver.h; sourceTree = "<group>"; };
+		843D84BF19F6B52B00643713 /* Diver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Diver.m; sourceTree = "<group>"; };
+		843D84C019F6B52B00643713 /* Rabbit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rabbit.h; sourceTree = "<group>"; };
+		843D84C119F6B52B00643713 /* Rabbit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rabbit.m; sourceTree = "<group>"; };
+		843D84C219F6B52B00643713 /* Runner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Runner.h; sourceTree = "<group>"; };
+		843D84C319F6B52B00643713 /* Runner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Runner.m; sourceTree = "<group>"; };
+		843D84C419F6B52B00643713 /* Snake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Snake.h; sourceTree = "<group>"; };
+		843D84C519F6B52B00643713 /* Snake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Snake.m; sourceTree = "<group>"; };
+		843D84CA19F6BB6900643713 /* Monkey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Monkey.h; sourceTree = "<group>"; };
+		843D84CB19F6BB6900643713 /* Monkey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Monkey.m; sourceTree = "<group>"; };
 		84F2BE7519F6AFD1006CEFE7 /* ProtocolsHomeWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProtocolsHomeWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F2BE7919F6AFD1006CEFE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84F2BE7A19F6AFD1006CEFE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +61,7 @@
 		84F2BE8E19F6AFD1006CEFE7 /* ProtocolsHomeWorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtocolsHomeWorkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F2BE9319F6AFD1006CEFE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84F2BE9419F6AFD1006CEFE7 /* ProtocolsHomeWorkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProtocolsHomeWorkTests.m; sourceTree = "<group>"; };
+		84F2BE9F19F6B066006CEFE7 /* Protocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Protocols.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +82,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		843D84B719F6B42E00643713 /* ModelObj */ = {
+			isa = PBXGroup;
+			children = (
+				843D84BE19F6B52B00643713 /* Diver.h */,
+				843D84BF19F6B52B00643713 /* Diver.m */,
+				843D84C219F6B52B00643713 /* Runner.h */,
+				843D84C319F6B52B00643713 /* Runner.m */,
+				843D84C019F6B52B00643713 /* Rabbit.h */,
+				843D84C119F6B52B00643713 /* Rabbit.m */,
+				843D84C419F6B52B00643713 /* Snake.h */,
+				843D84C519F6B52B00643713 /* Snake.m */,
+				843D84BB19F6B47700643713 /* Animal.h */,
+				843D84BC19F6B47700643713 /* Animal.m */,
+				843D84B819F6B44F00643713 /* Human.h */,
+				843D84B919F6B44F00643713 /* Human.m */,
+				843D84CA19F6BB6900643713 /* Monkey.h */,
+				843D84CB19F6BB6900643713 /* Monkey.m */,
+			);
+			name = ModelObj;
+			sourceTree = "<group>";
+		};
 		84F2BE6C19F6AFD1006CEFE7 = {
 			isa = PBXGroup;
 			children = (
+				843D84B719F6B42E00643713 /* ModelObj */,
 				84F2BE7719F6AFD1006CEFE7 /* ProtocolsHomeWork */,
 				84F2BE9119F6AFD1006CEFE7 /* ProtocolsHomeWorkTests */,
 				84F2BE7619F6AFD1006CEFE7 /* Products */,
@@ -81,6 +125,7 @@
 		84F2BE7719F6AFD1006CEFE7 /* ProtocolsHomeWork */ = {
 			isa = PBXGroup;
 			children = (
+				84F2BE9F19F6B066006CEFE7 /* Protocols.h */,
 				84F2BE7C19F6AFD1006CEFE7 /* AppDelegate.h */,
 				84F2BE7D19F6AFD1006CEFE7 /* AppDelegate.m */,
 				84F2BE7F19F6AFD1006CEFE7 /* ViewController.h */,
@@ -219,9 +264,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				843D84C719F6B52B00643713 /* Rabbit.m in Sources */,
+				843D84C619F6B52B00643713 /* Diver.m in Sources */,
 				84F2BE8119F6AFD1006CEFE7 /* ViewController.m in Sources */,
+				843D84C919F6B52B00643713 /* Snake.m in Sources */,
+				843D84CC19F6BB6900643713 /* Monkey.m in Sources */,
 				84F2BE7E19F6AFD1006CEFE7 /* AppDelegate.m in Sources */,
+				843D84BD19F6B47700643713 /* Animal.m in Sources */,
+				843D84C819F6B52B00643713 /* Runner.m in Sources */,
 				84F2BE7B19F6AFD1006CEFE7 /* main.m in Sources */,
+				843D84BA19F6B44F00643713 /* Human.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +466,7 @@
 				84F2BE9A19F6AFD1006CEFE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84F2BE9B19F6AFD1006CEFE7 /* Build configuration list for PBXNativeTarget "ProtocolsHomeWorkTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +475,7 @@
 				84F2BE9D19F6AFD1006CEFE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
