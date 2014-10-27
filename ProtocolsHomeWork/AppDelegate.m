@@ -14,10 +14,8 @@
 #import "Monkey.h"
 #import "Animal.h"
 #import "Human.h"
-
 @interface AppDelegate ()
 @end
-
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
@@ -33,64 +31,40 @@
     
     NSArray* array = @[human,diver,runner,animal,rabbit,snake,monkey];
     
-        for (int i=0; i<[array count]; i++) {
+    for (int i=0; i<[array count]; i++) {
         NSString* type = [[array objectAtIndex:i] getType];
         id obj = [array objectAtIndex:i];
         NSLog(@"|||||||||||||||||||||||||||||");
         
+        [obj movement];
+        
+        if ([type isEqualToString:@"Человек"]) {
+            if ([obj respondsToSelector:@selector(whatIsYourFavoritePastime)]) {
+                [obj whatIsYourFavoritePastime];
+            }
+            if ([obj respondsToSelector:@selector(howIsYourJob)]) {
+                [obj howIsYourJob];
+            }}
+        
         if ([obj conformsToProtocol:@protocol(Swimmers)]){
-            [obj movement];
             [obj diving];
             [obj swimming];
-            if ([type isEqualToString:@"Человек"]) {
-                if ([obj respondsToSelector:@selector(whatIsYourFavoritePastime)]) {
-                    [obj whatIsYourFavoritePastime];
-                }
-                if ([obj respondsToSelector:@selector(howIsYourJob)]) {
-                    [obj howIsYourJob];
-                }
             }
-        }
-        
         if ([obj conformsToProtocol:@protocol(Jumpers)]){
-            [obj movement];
             [obj makeJump];
             [obj accelerate];
-            if ([type isEqualToString:@"Человек"]) {
-                if ([obj respondsToSelector:@selector(whatIsYourFavoritePastime)]) {
-                    [obj whatIsYourFavoritePastime];
-                }
-                if ([obj respondsToSelector:@selector(howIsYourJob)]) {
-                    [obj howIsYourJob];
-                }
             }
-        }
-
         if ([obj conformsToProtocol:@protocol(Runners)]){
-            [obj movement];
             [obj running];
             [obj makeBounce];
-            if ([type isEqualToString:@"Человек"]) {
-                if ([obj respondsToSelector:@selector(whatIsYourFavoritePastime)]) {
-                    [obj whatIsYourFavoritePastime];
-                }
-                if ([obj respondsToSelector:@selector(howIsYourJob)]) {
-                    [obj howIsYourJob];
-                }
             }
-        }
-        
         if (![obj conformsToProtocol:@protocol(Jumpers)]&&![obj conformsToProtocol:@protocol(Runners)]&&![obj conformsToProtocol:@protocol(Swimmers)]){
             if ([type isEqualToString:@"Человек"]) {
-                [obj movement];
                 NSLog(@"Ленивое человеческое существо!");
             }
             if ([type isEqualToString:@"Жывотное"]) {
-                [obj movement];
                 NSLog(@"Ленивое жывотнае!");
-            }
-        }
-    }
+            }}}
     return YES;
 }
 @end
